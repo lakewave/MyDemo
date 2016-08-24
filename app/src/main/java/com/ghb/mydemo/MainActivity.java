@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn4 = (Button) findViewById(R.id.btn4);
         btn4.setText("生成二维码");
         btn4.setOnClickListener(this);
+        Button btn5 = (Button) findViewById(R.id.btn5);
+        btn5.setOnClickListener(this);
 
     }
 
@@ -53,6 +55,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn4:
                 startActivity(new Intent(this, QRCodeActivity.class));
+                break;
+            case R.id.btn5:
+                startActivity(new Intent(this, TabActivity.class));
                 break;
         }
     }

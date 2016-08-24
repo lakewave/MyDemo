@@ -28,7 +28,8 @@
         <activity android:name=".gallery.GalleryActivity" />
         <activity android:name=".SearchViewActivity" />
         <activity android:name=".QRCodeActivity" />
-        <activity android:name=".LocateActivity"></activity>
+        <activity android:name=".LocateActivity" />
+        <activity android:name=".TabActivity"></activity>
     </application>
 
 </manifest>
